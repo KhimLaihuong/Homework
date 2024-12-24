@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+      .icon{
+        display: block;
+        margin: auto;
+        border-radius: 100px;
+      }
+     
+      
+    </style>
+   
+    
+</head>
+<body>
+    <main >
+        <header class="bg-white">
+          <div class="flex justify-center items-center bg-blue-500 text-black p-2">
+            <button class=" bg-white rounded-full p-1">ព័ត៌មាន</button>
+            <span>វគ្គសិក្សាថ្មី៖ Java program</span>
+          </div>
+            <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+              <a class="block text-teal-600" href="#">
+                <span class="sr-only">Home</span>
+                <svg class="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M0.41 10.3847C1.14777 7.4194 2.85643 4.7861 5.2639 2.90424C7.6714 1.02234 10.6393 0 13.695 0C16.7507 0 19.7186 1.02234 22.1261 2.90424C24.5336 4.7861 26.2422 7.4194 26.98 10.3847H25.78C23.7557 10.3549 21.7729 10.9599 20.11 12.1147C20.014 12.1842 19.9138 12.2477 19.81 12.3047H19.67C19.5662 12.2477 19.466 12.1842 19.37 12.1147C17.6924 10.9866 15.7166 10.3841 13.695 10.3841C11.6734 10.3841 9.6976 10.9866 8.02 12.1147C7.924 12.1842 7.8238 12.2477 7.72 12.3047H7.58C7.4762 12.2477 7.376 12.1842 7.28 12.1147C5.6171 10.9599 3.6343 10.3549 1.61 10.3847H0.41ZM23.62 16.6547C24.236 16.175 24.9995 15.924 25.78 15.9447H27.39V12.7347H25.78C24.4052 12.7181 23.0619 13.146 21.95 13.9547C21.3243 14.416 20.5674 14.6649 19.79 14.6649C19.0126 14.6649 18.2557 14.416 17.63 13.9547C16.4899 13.1611 15.1341 12.7356 13.745 12.7356C12.3559 12.7356 11.0001 13.1611 9.86 13.9547C9.2343 14.416 8.4774 14.6649 7.7 14.6649C6.9226 14.6649 6.1657 14.416 5.54 13.9547C4.4144 13.1356 3.0518 12.7072 1.66 12.7347H0V15.9447H1.61C2.39051 15.924 3.154 16.175 3.77 16.6547C4.908 17.4489 6.2623 17.8747 7.65 17.8747C9.0377 17.8747 10.392 17.4489 11.53 16.6547C12.1468 16.1765 12.9097 15.9257 13.69 15.9447C14.4708 15.9223 15.2348 16.1735 15.85 16.6547C16.9901 17.4484 18.3459 17.8738 19.735 17.8738C21.1241 17.8738 22.4799 17.4484 23.62 16.6547ZM23.62 22.3947C24.236 21.915 24.9995 21.664 25.78 21.6847H27.39V18.4747H25.78C24.4052 18.4581 23.0619 18.886 21.95 19.6947C21.3243 20.156 20.5674 20.4049 19.79 20.4049C19.0126 20.4049 18.2557 20.156 17.63 19.6947C16.4899 18.9011 15.1341 18.4757 13.745 18.4757C12.3559 18.4757 11.0001 18.9011 9.86 19.6947C9.2343 20.156 8.4774 20.4049 7.7 20.4049C6.9226 20.4049 6.1657 20.156 5.54 19.6947C4.4144 18.8757 3.0518 18.4472 1.66 18.4747H0V21.6847H1.61C2.39051 21.664 3.154 21.915 3.77 22.3947C4.908 23.1889 6.2623 23.6147 7.65 23.6147C9.0377 23.6147 10.392 23.1889 11.53 22.3947C12.1468 21.9165 12.9097 21.6657 13.69 21.6847C14.4708 21.6623 15.2348 21.9135 15.85 22.3947C16.9901 23.1884 18.3459 23.6138 19.735 23.6138C21.1241 23.6138 22.4799 23.1884 23.62 22.3947Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+          
+              <div class="flex flex-1 items-center justify-end md:justify-between">
+                <nav aria-label="Global" class="hidden md:block">
+                  <ul class="flex items-center gap-6 text-sm">
+                    <li>
+                      <a class="text-black-500 transition hover:text-gray-500/75" href="#"> វគ្គសិក្សា </a>
+                    </li>
+          
+                    <li>
+                      <a class="text-black-500 transition hover:text-gray-500/75" href="#"> ប្លុក </a>
+                    </li>
+          
+                    <li>
+                      <a class="text-black-500 transition hover:text-gray-500/75" href="#"> វេទិកា </a>
+                    </li>
+          
+                    <li>
+                      <a class="text-black-500 transition hover:text-gray-500/75" href="#"> អំពីពួកយើង </a>
+                    </li>
+          
+                    <li>
+                      <a class="text-black-500 transition hover:text-gray-500/75" href="#"> ទាញយកកម្មវិធី</a>
+                    </li>
+          
+                    <li>
+                      <a class="text-black-500 transition hover:text-gray-500/75" href="#"> ចំណាត់ថ្នាក់ </a>
+                    </li>
+                  </ul>
+                </nav>
+          
+                <div class="flex items-center gap-4">
+                  <div class="sm:flex sm:gap-4">
+                    <a
+                      class="block rounded-md border border-gray-300 px-5 py-2.5 text-sm font-medium text-black transition hover:bg-blue-500"
+                      href="#"
+                    >
+                      ចូលប្រើ
+                      <i class="fa-solid fa-lock"></i>
+                    </a>
+                    <i class="fa-solid fa-lock​​" style="color: #74C0FC;"></i>
+                    <a
+                      class="hidden rounded-md bg-blue-500 px-5 py-2.5 text-sm font-medium text-black transition hover:text-pink-700 sm:block"
+                      href="#"
+                    >
+                      បង្កើតគណី
+                    </a>
+                  </div>
+          
+                  <button
+                    class="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden"
+                  >
+                    <span class="sr-only">Toggle menu</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="size-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+         
+          </header>
+          <section class="ml-24 mr-10">
+            <div >
+              <img style="float: right" class="mt-0"
+              src="./image/tablet.png" alt="table">
+              
+              <div><br>
+                <div class="mt-24 ">
+                  <h2 class="text-4xl text-pink-700">Developers Cambodia</h2><br>
+              <p>គឺជាគេហទំព័រដែលផ្ដល់វគ្គបណ្ដុះបណ្ដាល និងការបង្រៀនតាមអ៊ីនធឹណឺត​លើប្រធានបទជាច្រើន រួមទាំងអាជីវកម្ម បច្ចេកវិទ្យា ការរចនា។ល។ពិសេសជាងនេះទៅទៀតយើងក៏មានផ្ដល់ជូននូវវិញ្ញាបត្រដល់សិស្សបន្ទាប់ពីបញ្ចប់វគ្គសិក្សាណានីមួយៗ។</p>
+
+                </div><br>
+                
+                <button class="border bg-pink-500 rounded-md p-2">ក្លាយជាគ្រូបង្រៀន<i class="fa-solid fa-arrow-right"></i></button>
+                <button class="border bg-pink-500 rounded-md p-2">ក្លាយជាអ្នកសរសេរអត្ថបទ<i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+            </div>
+          </section><br><br><br><br>
+          <section class="grid grid-cols-4 text-black text-center  m-10 gap-6">
+            
+            <div class="class bg-pink-100 p-6 border rounded-md">
+              <img
+              class="icon"
+              width="50px"
+               src="https://img.freepik.com/free-vector/clouds-connected-electronic-devices_23-2147490670.jpg?semt=ais_hybrid" alt="cloud computing">
+              <p>cloud computing</p>
+              <small>15វគ្គសិក្សា</small>
+            </div>
+            <div class="class bg-blue-100 p-6 border rounded-md">
+              <img 
+              class="icon"
+               width="50px"
+              src="https://img.freepik.com/free-vector/clouds-connected-electronic-devices_23-2147490670.jpg?semt=ais_hybrid" 
+              alt="cloud computing">
+              <p>Block Chain</p>
+              <small>23វគ្គសិក្សា</small>
+            </div>
+            <div class="class bg-pink-100 p-6 border rounded-md">
+              <img 
+              class="icon"
+              width="50px"
+              src="data:image/jpeg;base64,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"
+               alt="Big Data">
+              <p>Big Data</p>
+              <small>27វគ្គសិក្សា</small>
+    
+            </div>
+            <div class="class bg-blue-100 p-6 border rounded-md">
+              <img 
+              class="icon"
+              width="50px"
+              src="data:image/jpeg;base64,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"
+               alt="Big Data">
+              <p>Cyber Security</p>
+              <small>15វគ្គសិក្សា</small>
+            </div>
+            <div class="class bg-pink-100 p-6 border rounded-md">
+              <img
+              class="icon"
+              width="50px"
+               src="https://img.freepik.com/free-vector/clouds-connected-electronic-devices_23-2147490670.jpg?semt=ais_hybrid" alt="cloud computing">
+              <p>cloud computing</p>
+              <small>15វគ្គសិក្សា</small>
+            </div>
+            <div class="class bg-blue-100 p-6 border rounded-md">
+              <img 
+              class="icon"
+              width="50px"
+              src="data:image/jpeg;base64,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"
+               alt="Big Data">
+              <p>Cyber Security</p>
+              <small>15វគ្គសិក្សា</small>
+            </div>
+            <div class="class bg-pink-100 p-6 border rounded-md"> 
+              <img 
+              class="icon"
+              width="50px"
+              src="data:image/jpeg;base64,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"
+               alt="Big Data">
+              <p>Big Data</p>
+              <small>27វគ្គសិក្សា</small>
+            </div>
+            <div class="class bg-blue-100 p-6 border rounded-md">
+              <img 
+              class="icon"
+               width="50px"
+              src="https://img.freepik.com/free-vector/clouds-connected-electronic-devices_23-2147490670.jpg?semt=ais_hybrid" 
+              alt="cloud computing">
+              <p>Block Chain</p>
+              <small>23វគ្គសិក្សា</small>
+            </div>
+          </div>
+          </section><br>
+          <h1 class="flex justify-center items-center">វគ្គសិក្សាដោយឥតគិតថ្លៃ</h1>
+          <section class="grid grid-cols-4 m-10  gap-3">
+      
+          <!-- card1 -->
+          <article
+          class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+        >
+          <img alt="" src="./image/1.png" class="h-50 w-full object-cover" />
+  
+          <div class="bg-white p-2 sm:p-6">
+            <a href="#">
+              <h3 class="mt-0.5 text-lg text-gray-900">
+                How to position your furniture for positivity
+              </h3>
+            </a>
+            <p class="text-sm text-gray-500">Sin Sreyphea</p>
+            <p class="my-4">
+              <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+              <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+              <small>(100 reviews)</small>
+            </p>
+            <button class="bg-yellow-400 px-4 py-2 rounded-full">Free</button>
+          </div>
+        </article>
+          
+      <!-- card2 -->
+      <article
+        class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+      >
+        <img alt="" src="./image/2.png" class="h-50 w-full object-cover" />
+
+        <div class="bg-white p-2 sm:p-6">
+          <a href="#">
+            <h3 class="mt-0.5 text-lg text-gray-900">
+              How to position your furniture for positivity
+            </h3>
+          </a>
+          <p class="text-sm text-gray-500">Sin Sreyphea</p>
+          <p class="my-4">
+            <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+            <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+            <small>(100 reviews)</small>
+          </p>
+          <button class="bg-yellow-400 px-4 py-2 rounded-full">Free</button>
+        </div>
+      </article>
+      <!-- card3 -->
+      <article
+      class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+    >
+      <img alt="" src="./image/3.png" class="h-50 w-full object-cover" />
+
+      <div class="bg-white p-2 sm:p-6">
+        <a href="#">
+          <h3 class="mt-0.5 text-lg text-gray-900">
+            How to position your furniture for positivity
+          </h3>
+        </a>
+        <p class="text-sm text-gray-500">Sin Sreyphea</p>
+        <p class="my-4">
+          <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+          <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+          <small>(100 reviews)</small>
+        </p>
+        <button class="bg-yellow-400 px-4 py-2 rounded-full">Free</button>
+      </div>
+    </article>
+    <!-- card4 -->
+    <article
+    class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+  >
+    <img alt="" src="./image/4.png" class="h-50 w-full object-cover" />
+
+    <div class="bg-white p-2 sm:p-6">
+      <a href="#">
+        <h3 class="mt-0.5 text-lg text-gray-900">
+          How to position your furniture for positivity
+        </h3>
+      </a>
+      <p class="text-sm text-gray-500">Sin Sreyphea</p>
+      <p class="my-4">
+        <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+        <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+        <small>(100 reviews)</small>
+      </p>
+      <button class="bg-yellow-400 px-4 py-2 rounded-full">Free</button>
+    </div>
+  </article>
+  <!-- card5 -->
+  <article
+  class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+>
+  <img alt="" src="./image/5.png" class="h-50 w-full object-cover" />
+
+  <div class="bg-white p-2 sm:p-6">
+    <a href="#">
+      <h3 class="mt-0.5 text-lg text-gray-900">
+        How to position your furniture for positivity
+      </h3>
+    </a>
+    <p class="text-sm text-gray-500">Sin Sreyphea</p>
+    <p class="my-4">
+      <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+      <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+      <small>(100 reviews)</small>
+    </p>
+    <button class="bg-yellow-400 px-4 py-2 rounded-full">Free</button>
+  </div>
+</article>
+<!-- card6 -->
+<article
+class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+>
+<img alt="" src="./image/6.png" class="h-50 w-full object-cover" />
+
+<div class="bg-white p-2 sm:p-6">
+  <a href="#">
+    <h3 class="mt-0.5 text-lg text-gray-900">
+      How to position your furniture for positivity
+    </h3>
+  </a>
+  <p class="text-sm text-gray-500">Sin Sreyphea</p>
+  <p class="my-4">
+    <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+    <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+    <small>(100 reviews)</small>
+  </p>
+  <button class="bg-yellow-400 px-4 py-2 rounded-full">Free</button>
+</div>
+</article>
+<!-- card7 -->
+<article
+        class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+      >
+        <img alt="" src="./image/1.png" class="h-50 w-full object-cover" />
+
+        <div class="bg-white p-2 sm:p-6">
+          <a href="#">
+            <h3 class="mt-0.5 text-lg text-gray-900">
+              How to position your furniture for positivity
+            </h3>
+          </a>
+          <p class="text-sm text-gray-500">Sin Sreyphea</p>
+          <p class="my-4">
+            <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+            <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+            <small>(100 reviews)</small>
+          </p>
+          <button class="bg-yellow-400 px-4 py-2 rounded-full">Free</button>
+        </div>
+      </article>
+      <!-- card8 -->
+      <article
+        class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+      >
+        <img alt="" src="./image/2.png" class="h-50 w-full object-cover" />
+
+        <div class="bg-white p-2 sm:p-6">
+          <a href="#">
+            <h3 class="mt-0.5 text-lg text-gray-900">
+              How to position your furniture for positivity
+            </h3>
+          </a>
+          <p class="text-sm text-gray-500">Sin Sreyphea</p>
+          <p class="my-4">
+            <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+            <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+            <small>(100 reviews)</small>
+          </p>
+          <button class="bg-yellow-400 px-4 py-2 rounded-full">Free</button>
+        </div>
+      </article>
+    </section>
+    <h1 class="flex justify-center items-center">វគ្គសិក្សាថ្មី</h1>
+          <section class="grid grid-cols-4 m-10  gap-6">
+      
+          <!-- card1 -->
+          <article
+          class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+        >
+          <img alt="" src="./image/1.png" class="h-50 w-full object-cover" />
+  
+          <div class="bg-white p-2 sm:p-6">
+            <a href="#">
+              <h3 class="mt-0.5 text-lg text-gray-900">
+                How to position your furniture for positivity
+              </h3>
+            </a>
+            <p class="text-sm text-gray-500">Sin Sreyphea</p>
+            <p class="my-4">
+              <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+              <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+              <small>(100 reviews)</small>
+            </p>
+            <button class="bg-yellow-400 px-4 py-2 rounded-full">10000៛</button>
+          </div>
+        </article>
+          
+      <!-- card2 -->
+      <article
+        class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+      >
+        <img alt="" src="./image/2.png" class="h-50 w-full object-cover" />
+
+        <div class="bg-white p-2 sm:p-6">
+          <a href="#">
+            <h3 class="mt-0.5 text-lg text-gray-900">
+              How to position your furniture for positivity
+            </h3>
+          </a>
+          <p class="text-sm text-gray-500">Sin Sreyphea</p>
+          <p class="my-4">
+            <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+            <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+            <small>(100 reviews)</small>
+          </p>
+          <button class="bg-yellow-400 px-4 py-2 rounded-full">20000៛</button>
+        </div>
+      </article>
+      <!-- card3 -->
+      <article
+      class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+    >
+      <img alt="" src="./image/3.png" class="h-50 w-full object-cover" />
+
+      <div class="bg-white p-2 sm:p-6">
+        <a href="#">
+          <h3 class="mt-0.5 text-lg text-gray-900">
+            How to position your furniture for positivity
+          </h3>
+        </a>
+        <p class="text-sm text-gray-500">Sin Sreyphea</p>
+        <p class="my-4">
+          <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+          <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+          <small>(100 reviews)</small>
+        </p>
+        <button class="bg-yellow-400 px-4 py-2 rounded-full">30000៛</button>
+      </div>
+    </article>
+    <!-- card4 -->
+    <article
+    class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+  >
+    <img alt="" src="./image/4.png" class="h-50 w-full object-cover" />
+
+    <div class="bg-white p-2 sm:p-6">
+      <a href="#">
+        <h3 class="mt-0.5 text-lg text-gray-900">
+          How to position your furniture for positivity
+        </h3>
+      </a>
+      <p class="text-sm text-gray-500">Sin Sreyphea</p>
+      <p class="my-4">
+        <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+        <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+        <small>(100 reviews)</small>
+      </p>
+      <button class="bg-yellow-400 px-4 py-2 rounded-full">40000៛</button>
+    </div>
+  </article>
+  <!-- card5 -->
+  <article
+  class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+>
+  <img alt="" src="./image/5.png" class="h-50 w-full object-cover" />
+
+  <div class="bg-white p-2 sm:p-6">
+    <a href="#">
+      <h3 class="mt-0.5 text-lg text-gray-900">
+        How to position your furniture for positivity
+      </h3>
+    </a>
+    <p class="text-sm text-gray-500">Sin Sreyphea</p>
+    <p class="my-4">
+      <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+      <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+      <small>(100 reviews)</small>
+    </p>
+    <button class="bg-yellow-400 px-4 py-2 rounded-full">50000៛</button>
+  </div>
+</article>
+<!-- card6 -->
+<article
+class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+>
+<img alt="" src="./image/6.png" class="h-50 w-full object-cover" />
+
+<div class="bg-white p-2 sm:p-6">
+  <a href="#">
+    <h3 class="mt-0.5 text-lg text-gray-900">
+      How to position your furniture for positivity
+    </h3>
+  </a>
+  <p class="text-sm text-gray-500">Sin Sreyphea</p>
+  <p class="my-4">
+    <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+    <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+    <small>(100 reviews)</small>
+  </p>
+  <button class="bg-yellow-400 px-4 py-2 rounded-full">60000៛</button>
+</div>
+</article>
+<!-- card7 -->
+<article
+        class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+      >
+        <img alt="" src="./image/1.png" class="h-50 w-full object-cover" />
+
+        <div class="bg-white p-2 sm:p-6">
+          <a href="#">
+            <h3 class="mt-0.5 text-lg text-gray-900">
+              How to position your furniture for positivity
+            </h3>
+          </a>
+          <p class="text-sm text-gray-500">Sin Sreyphea</p>
+          <p class="my-4">
+            <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+            <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+            <small>(100 reviews)</small>
+          </p>
+          <button class="bg-yellow-400 px-4 py-2 rounded-full">80000៛</button>
+        </div>
+      </article>
+      <!-- card8 -->
+      <article
+        class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+      >
+        <img alt="" src="./image/2.png" class="h-50 w-full object-cover" />
+
+        <div class="bg-white p-2 sm:p-6">
+          <a href="#">
+            <h3 class="mt-0.5 text-lg text-gray-900">
+              How to position your furniture for positivity
+            </h3>
+          </a>
+          <p class="text-sm text-gray-500">Sin Sreyphea</p>
+          <p class="my-4">
+            <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+            <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+            <small>(100 reviews)</small>
+          </p>
+          <button class="bg-yellow-400 px-4 py-2 rounded-full">70000៛</button>
+        </div>
+      </article>
+    </section>
+    <h1 class="flex justify-center items-center">វគ្គសិក្សាដែលបញ្ចុះតម្លៃ</h1>
+          <section class="grid grid-cols-4 m-10  gap-6">
+      
+          <!-- card1 -->
+          <article
+          class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+        >
+          <img alt="" src="./image/1.png" class="h-50 w-full object-cover" />
+  
+          <div class="bg-white p-2 sm:p-6">
+            <a href="#">
+              <h3 class="mt-0.5 text-lg text-gray-900">
+                How to position your furniture for positivity
+              </h3>
+            </a>
+            <p class="text-sm text-gray-500">Sin Sreyphea</p>
+            <p class="my-4">
+              <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+              <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+              <small>(100 reviews)</small>
+            </p>
+            <button class="bg-yellow-400 px-4 py-2 rounded-full">80000៛</button>
+            <del>20000៛</del>
+          </div>
+        </article>
+          
+      <!-- card2 -->
+      <article
+        class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+      >
+        <img alt="" src="./image/2.png" class="h-50 w-full object-cover" />
+
+        <div class="bg-white p-2 sm:p-6">
+          <a href="#">
+            <h3 class="mt-0.5 text-lg text-gray-900">
+              How to position your furniture for positivity
+            </h3>
+          </a>
+          <p class="text-sm text-gray-500">Sin Sreyphea</p>
+          <p class="my-4">
+            <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+            <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+            <small>(100 reviews)</small>
+          </p>
+          <button class="bg-yellow-400 px-4 py-2 rounded-full">10000៛</button>
+          <del>20000៛</del>
+        </div>
+      </article>
+      <!-- card3 -->
+      <article
+      class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+    >
+      <img alt="" src="./image/3.png" class="h-50 w-full object-cover" />
+
+      <div class="bg-white p-2 sm:p-6">
+        <a href="#">
+          <h3 class="mt-0.5 text-lg text-gray-900">
+            How to position your furniture for positivity
+          </h3>
+        </a>
+        <p class="text-sm text-gray-500">Sin Sreyphea</p>
+        <p class="my-4">
+          <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+          <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+          <small>(100 reviews)</small>
+        </p>
+        <button class="bg-yellow-400 px-4 py-2 rounded-full">10000៛</button>
+        <del>20000៛</del>
+      </div>
+    </article>
+    <!-- card4 -->
+    <article
+    class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+  >
+    <img alt="" src="./image/4.png" class="h-50 w-full object-cover" />
+
+    <div class="bg-white p-2 sm:p-6">
+      <a href="#">
+        <h3 class="mt-0.5 text-lg text-gray-900">
+          How to position your furniture for positivity
+        </h3>
+      </a>
+      <p class="text-sm text-gray-500">Sin Sreyphea</p>
+      <p class="my-4">
+        <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+        <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+        <small>(100 reviews)</small>
+      </p>
+      <button class="bg-yellow-400 px-4 py-2 rounded-full">10000៛</button>
+      <del>20000៛</del>
+    </div>
+  </article>
+  <!-- card5 -->
+  <article
+  class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+>
+  <img alt="" src="./image/5.png" class="h-50 w-full object-cover" />
+
+  <div class="bg-white p-2 sm:p-6">
+    <a href="#">
+      <h3 class="mt-0.5 text-lg text-gray-900">
+        How to position your furniture for positivity
+      </h3>
+    </a>
+    <p class="text-sm text-gray-500">Sin Sreyphea</p>
+    <p class="my-4">
+      <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+      <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+      <small>(100 reviews)</small>
+    </p>
+    <button class="bg-yellow-400 px-4 py-2 rounded-full">10000៛</button>
+    <del>20000៛</del>
+  </div>
+</article>
+<!-- card6 -->
+<article
+class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+>
+<img alt="" src="./image/6.png" class="h-50 w-full object-cover" />
+
+<div class="bg-white p-2 sm:p-6">
+  <a href="#">
+    <h3 class="mt-0.5 text-lg text-gray-900">
+      How to position your furniture for positivity
+    </h3>
+  </a>
+  <p class="text-sm text-gray-500">Sin Sreyphea</p>
+  <p class="my-4">
+    <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+    <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+    <small>(100 reviews)</small>
+  </p>
+  <button class="bg-yellow-400 px-4 py-2 rounded-full">10000៛</button>
+  <del>20000៛</del>
+</div>
+</article>
+<!-- card7 -->
+<article
+        class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+      >
+        <img alt="" src="./image/1.png" class="h-50 w-full object-cover" />
+
+        <div class="bg-white p-2 sm:p-6">
+          <a href="#">
+            <h3 class="mt-0.5 text-lg text-gray-900">
+              How to position your furniture for positivity
+            </h3>
+          </a>
+          <p class="text-sm text-gray-500">Sin Sreyphea</p>
+          <p class="my-4">
+            <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+            <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+            <small>(100 reviews)</small>
+          </p>
+          <button class="bg-yellow-400 px-4 py-2 rounded-full">10000៛</button>
+          <del>20000៛</del>
+        </div>
+      </article>
+      <!-- card8 -->
+      <article
+        class="overflow-hidden rounded-md transition hover:shadow-lg w-[300px]"
+      >
+        <img alt="" src="./image/2.png" class="h-50 w-full object-cover" />
+
+        <div class="bg-white p-2 sm:p-6">
+          <a href="#">
+            <h3 class="mt-0.5 text-lg text-gray-900">
+              How to position your furniture for positivity
+            </h3>
+          </a>
+          <p class="text-sm text-gray-500">Sin Sreyphea</p>
+          <p class="my-4">
+            <small class="bg-blue-100 px-3 py-1 rounded-full mr-2">9</small>
+            <i class="fa-solid fa-star mr-2" style="color: #ffd43b"></i>
+            <small>(100 reviews)</small>
+          </p>
+          <button class="bg-yellow-400 px-4 py-2 rounded-full">10000៛</button>
+          <del>20000៛</del>
+        </div>
+      </article>
+    </section><br>
+    <h1 class="flex justify-center items-center​ text-5xl  text-blue-500">លក្ខណពិសេសរបស់យើង</h1><br>
+    <section class="ml-24  mr-10">
+      <div >
+        <img style="float: right"
+        src="./image/content-writer.png" alt="table">
+        
+        <div><br>
+          <div class="mt-28 mr-10">
+          <h2 class="text-4xl text-pink-700">Developers Cambodia</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit expedita optio quaerat eos. Incidunt nisi autem earum fuga veritatis maiores exercitationem modi debitis, dolores ex minima vero cumque nemo dolorem!</p>
+      </div>
+       </section>
+       <section class="ml-24 mr-10">
+        <div >
+          <img style="float: left"
+          src="./image/forum.png" alt="table">
+          
+          <div><br>
+            <div class="mt-28">
+            <h2 class="text-4xl text-pink-700">Developers Cambodia</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quo dolore tempora, sint similique iusto adipisci aspernatur, aut earum, asperiores impedit veritatis harum minus voluptate eius a voluptates nemo voluptatibus.</p>
+        </div>
+         </section>
+         <section class="ml-24 mr-10">
+          <div >
+            <img style="float: right"
+            src="./image/certificate.png" alt="table">
+            
+            <div><br>
+              <div class="mt-28">
+              <h2 class="text-4xl text-pink-700">Developers Cambodia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsam porro asperiores autem quo aliquid, illum praesentium dolore, officia, repudiandae dolores sequi error cumque dolorem exercitationem ad quia eaque libero.</p>
+          </div>
+           </section>
+           <section class="ml-24 mr-10">
+            <div class="mb-24">
+              <img style="float: left"
+              src="./image/instructor.png" alt="table">
+              
+              <div><br>
+                <div class="mt-32">
+                <h2 class="text-4xl text-pink-700">Developers Cambodia</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, blanditiis recusandae vitae eum temporibus eius quaerat officiis alias assumenda consequatur deleniti officia reiciendis numquam esse possimus laborum, ipsam quo eaque.</p>
+            </div>
+             </section><br><br>
+
+             <h1 class="flex justify-center items-center​ text-5xl text-blue-500 mt-24">ទាញយកម្មវិធីនៅក្នុងទូរស័ព្ទដៃ</h1><br>
+             <section class="ml-24 mr-10">
+              <div >
+                <img style="float: right"
+                src="./image/download.png" alt="table">
+                
+                <div><br>
+                  <div class="mt-28">
+                  <h2 class="text-xl text-black-100">សិស្សនិស្សិតអាចសិក្សាបានគ្រប់ទីកន្លែងដោយគ្រាន់តែមាននូវទូរស័ព្ទដៃ</h2><br>
+                <button class="border rounded-md bg-blue-100 px-24 mx-8">Google Play</button><br><br>
+                <button class="border rounded-md bg-blue-100 px-28 mx-8">AppStore</button>
+              </div>
+               </section><br><br><br><br><br><br><br><br><br><br><br>
+               <h1 class="flex justify-center items-center​ text-5xl text-blue-500">សំណួរដែរគេតែងតែសួរជាញឹកញាប់</h1><br>
+               <section class="ml-24 mr-10">
+                <div >
+                  <img style="float: left"
+                  src="./image/people.png" alt="table">
+                  <img style="float: right" class="mt-36"
+                  src="./image/people1.png" alt="table">
+                  
+                  
+                  <div><br>
+                    <div class="mt-0">
+                    <ul>
+                      <li>តើតម្រូវការបច្ចេកទេសអ្វីខ្លះសម្រាប់ការរៀនអនឡាញ</li><hr class=" py-2">
+                      <li>ការតភ្ជាប់អ៊ីនធឺណេតដែលអាចទុកចិត្តបាន។កុំព្យូទ័រឧបករណ៍ចល័តដែលមានកម្មវិធីនិងផ្នែករឹងដែលបានធ្វើបច្ចុប្បន្នភាពកម្មវិធីរុករកអ៊ីនធឺណឹត</li><hr class=" py-2">
+                      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li><hr class=" py-2">
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li><hr class=" py-2">
+                      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li class=" py-2">
+                      
+                    </ul>
+                </div>
+                 </section><br><br><br><br><br><br><br><br><br>
+                 
+
+<footer class="border-gray-200 bg-black-100 mt-20 ">
+  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+            <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKGTGbxG8U4JL7ToKMVGIQ1Jno1a6gdOM2uQ&s" class="h-8 me-3" alt="FlowBite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Istad</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"></h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">SITE MAP</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">information</a>
+                    </li>
+                    <li>
+                      <a href="#" class="hover:underline">login</a>
+                  </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">CONTACT US</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline ">Our Feature</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Privacy Policy</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">Course</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Forum</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Developers Cambodia</a>. All Rights Reserved.
+        </span>
+        <div class="flex mt-4 sm:justify-center sm:mt-0">
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                      <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                  </svg>
+                <span class="sr-only">Facebook page</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                      <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
+                  </svg>
+                <span class="sr-only">gmail</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                  <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+              </svg>
+                <span class="sr-only">Telegram</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                </svg>
+                <span class="sr-only">Linkin</span>
+            </a>
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
+              </svg>
+                <span class="sr-only">Email</span>
+            </a>
+        </div>
+    </div>
+  </div>
+</footer>
+
+    </main>
+</body>
+</html>
